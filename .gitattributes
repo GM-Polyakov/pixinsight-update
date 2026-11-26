@@ -1,0 +1,5 @@
+# Every text file is stored and checked out with Unix line ends, a line feed
+# only, on Windows too. build/build.sh packs the helper files exactly as they
+# are stored, and a checkout with Windows line ends would pack a helper.sh
+# that does not run.
+* text=auto eol=lf

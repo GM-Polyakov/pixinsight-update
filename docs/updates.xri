@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xri version="1.0">
+
+   <description>
+      <p>
+         PixInsight Update Assistant: updates PixInsight from inside PixInsight.
+         A free, independent add-on. It is not made or endorsed by Pleiades Astrophoto.
+      </p>
+   </description>
+
+   <platform os="macosx" arch="noarch" version="1.9.3:1.9.99">
+      <package fileName="20261126-UpdateAssistant-0.1.0.tar.gz"
+               sha1="6618fec4404e5fac56b7c0ca99c5d91e6b0f63a7"
+               type="script"
+               releaseDate="20261126">
+         <title>
+            PixInsight Update Assistant 0.1.0
+         </title>
+         <remove>
+            src/scripts/UpdateAssistant
+         </remove>
+         <description>
+            <p>
+               Updates PixInsight to the newest version from inside PixInsight:
+               Script &gt; Utilities &gt; Update PixInsight.
+            </p>
+            <p>
+               PixInsight Update Assistant is a free, independent add-on.
+               It is not made or endorsed by Pleiades Astrophoto.
+            </p>
+         </description>
+      </package>
+   </platform>
+
+   <platform os="windows" arch="noarch" version="1.9.3:1.9.99">
+      <package fileName="20261126-UpdateAssistant-0.1.0.tar.gz"
+               sha1="6618fec4404e5fac56b7c0ca99c5d91e6b0f63a7"
+               type="script"
+               releaseDate="20261126">
+         <title>
+            PixInsight Update Assistant 0.1.0
+         </title>
+         <remove>
+            src/scripts/UpdateAssistant
+         </remove>
+         <description>
+            <p>
+               Updates PixInsight to the newest version from inside PixInsight:
+               Script &gt; Utilities &gt; Update PixInsight.
+            </p>
+            <p>
+               PixInsight Update Assistant is a free, independent add-on.
+               It is not made or endorsed by Pleiades Astrophoto.
+            </p>
+         </description>
+      </package>
+   </platform>
+
+</xri>

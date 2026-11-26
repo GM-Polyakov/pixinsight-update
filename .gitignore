@@ -1,0 +1,9 @@
+# Test output, helper logs and any downloaded installer.
+# A PixInsight installer must never be committed: its license forbids passing copies on.
+tests/out/
+
+# Build output. Publish dist/repository/; do not commit it here.
+dist/
+
+__pycache__/
+.DS_Store
