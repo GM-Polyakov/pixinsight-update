@@ -10,9 +10,8 @@ PixInsight Update Assistant is a free, independent add-on. It is not made or end
 - **The add-ons came back.** At its next update check the new PixInsight fetched them again by itself, 14 packages in all.
 - **That was the second attempt.** The first, the same day, installed the Intel build, which cannot start on a Mac with an Apple chip. It was undone, and the faults it showed were fixed.
 - **It passes a rehearsal** with stand-ins for the download service and the installer: 18 cases on PixInsight 1.9.6, and the 16 cases it then had on 1.9.3.
-- **It installs through its repository link.** On 2026-11-25 PixInsight 1.9.6 on the test Mac fetched it from the public link, installed it and put it in the Script menu.
+- **It installs through its repository link.** On 2026-11-25 PixInsight 1.9.6 on the test Mac fetched it from the public link, installed it and put it in the Script menu. The same link installed it in PixInsight on the test PC.
 - **On Windows it passes a rehearsal** of 17 cases on PixInsight 1.9.3, 1.9.4 and 1.9.6, and has made two real updates on one PC on 2026-11-25: from 1.9.5 to 1.9.6, and from 1.9.3 to 1.9.6.
-- **Not shown yet:** installing through the link on Windows.
 
 ## Install
 
