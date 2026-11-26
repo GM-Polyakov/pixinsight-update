@@ -36,7 +36,7 @@ The updater checks the downloaded installer against PixInsight's published check
 - **Disk space:** approximately **3 GB on macOS** or **4 GB on Windows**.
 - **Apple Silicon Macs:** updating an Intel installation replaces it with the Apple Silicon version. **Intel-only add-ons will no longer work.** The updater does not warn about this during the update.
 - **Windows:** PixInsight's installer clears its installation folder. The updater checks for your files **only at the top level**; personal files inside PixInsight subfolders **may be deleted**. Back them up first. There is **no automatic rollback** on Windows.
-- **Mac recovery:** the previous installation is moved to the Trash and can be restored until you empty it. See the recovery procedure below.
+- **Mac recovery:** the previous installation is moved to the Trash and can be restored until you empty it. See the [detailed recovery procedure](DETAILS.md#going-back-to-the-previous-version-mac-only).
 
 This project is new and has been tested on limited configurations. Back up important custom files before updating.
 
