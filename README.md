@@ -139,7 +139,7 @@ On Windows, in PowerShell. This needs Git for Windows, whose shell the tests use
 powershell -NoProfile -ExecutionPolicy Bypass -File tests\windows\run-rehearsal.ps1
 ```
 
-Comments in the code refer to `TESTING.md`, the project's record of what was tested and what went wrong along the way. It isn't published yet.
+Comments in the code refer to `TESTING.md`, the project's private test notes. You don't need them to build or change the code.
 
 ## License
 
