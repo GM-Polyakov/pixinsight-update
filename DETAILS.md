@@ -9,7 +9,7 @@ You need:
 - **PixInsight 1.9.3 or later**, on macOS or Windows. Linux is not supported yet.
 - **A PixInsight account**, the same user name and password you use to download PixInsight.
 - **Your computer's administrator password.** macOS asks for it once, and Windows asks whether the installer may make changes.
-- **Free disk space:** about 3 GB on a Mac and about 4 GB on Windows.
+- **Free disk space:** the same as updating PixInsight by hand needs.
 - **On a Mac, PixInsight in the Applications folder**, where PixInsight's installer puts it.
 
 Please read the warning for your system:
@@ -51,7 +51,7 @@ PixInsight's installer won't run while the folder `/Applications/PixInsight` exi
 2. **Renames the old folder** to `PixInsight (before update)` and runs PixInsight's installer.
 3. **Checks that the new PixInsight starts** before it changes anything else.
 4. **Moves your own folders over.** Anything at the top of the old folder that isn't part of PixInsight, such as star catalogues, goes into the new folder.
-5. **Moves the old folder to the Trash.** It takes about 3 GB until you empty the Trash. Your Mac may ask for your password when you do, because the folder belongs to the system.
+5. **Moves the old folder to the Trash.** It stays there until you empty the Trash. Your Mac may ask for your password when you do, because the folder belongs to the system.
 
 If something goes wrong:
 
