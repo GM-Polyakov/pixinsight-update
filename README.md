@@ -33,7 +33,7 @@ The updater checks the downloaded installer against PixInsight's published check
 
 - **Supported:** PixInsight **1.9.3 or later**, on macOS or Windows. **Linux is not supported yet.**
 - **Account and permissions:** a PixInsight download account and permission to install software as an administrator. On macOS, PixInsight must be installed in `/Applications`.
-- **Disk space:** the same free space that updating PixInsight by hand needs.
+- **Disk space:** the add-on itself is a 45 KB download, about 200 KB installed. The update needs the same free space as updating PixInsight by hand.
 - **Apple Silicon Macs:** updating an Intel installation replaces it with the Apple Silicon version. **Intel-only add-ons will no longer work.** The updater does not warn about this during the update.
 - **Windows:** PixInsight's installer clears its installation folder. The updater checks for your files **only at the top level**; personal files inside PixInsight subfolders **may be deleted**. Back them up first. There is **no automatic rollback** on Windows.
 - **Mac recovery:** the previous installation is moved to the Trash and can be restored until you empty it. See the [detailed recovery procedure](DETAILS.md#going-back-to-the-previous-version-mac-only).
